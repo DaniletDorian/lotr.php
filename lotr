@@ -1,0 +1,16 @@
+<?php
+$films = [
+    "La communaute de l anneau" => 2001,
+    "Les Deux Tours" => 2002,
+    "Le retour du roi" => 2003
+    ];
+
+
+arsort($films) ;
+
+foreach($films as $key => $date) {
+    echo $key. " est sorti en " .$date . '<br>';
+} 
+
+
+?>
